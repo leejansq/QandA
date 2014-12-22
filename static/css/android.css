@@ -1,0 +1,53 @@
+/* CSS Document */
+
+.top{ height:60px; background:#d13451;padding:0 2%; line-height:60px; text-align:center; font-size:22px; font-weight:bold;color:#fff;}
+.top a.ret{float:left; width:60px; height:60px; display:block; background:url(../img/ret_nor.png) no-repeat center; background-size:auto 35px}
+/*.top a.ret:hover{ background:url(../img/ret_pre.png) no-repeat center;background-size:auto 35px;}
+*/.top a.search{float:right;width:60px; height:60px; display:block; background:url(../img/search_nor.png) no-repeat center; background-size:auto 35px}
+/*.top a.search:hover{ background:url(../img/search_pre.png) no-repeat center;background-size:auto 35px;}
+*/
+.conter{ width:100%; height:650px; background:url(../img/xiaoren.png) no-repeat center; background-size:auto 260px;}
+
+.conter .img1,.conter .img2,.conter .img3,.conter .img4,.conter .img5,.conter .img6{width:70px; height:90px; text-align:center; color:#666; font-size:16px;}
+.conter .img1 img,.conter .img2 img,.conter .img3 img,.conter .img4 img,.conter .img5 img,.conter .img6 img{ width:60px; height:60px;}
+
+.conter .title{position:absolute; top:6%; left:8%;background:url(../img/title_txt.png) no-repeat;background-size:auto 50px}
+.conter .img1{position:absolute; bottom:12%; left:45%;}
+.conter .img2{position:absolute; top:32%; left:8%;}
+.conter .img3{position:absolute; top:27%; right:8%;}
+.conter .img4{position:absolute; top:55%; right:6%;}
+.conter .img5{position:absolute; top:16%; right:40%;}
+.conter .img6{position:absolute; bottom:25%; left:6%;}
+
+/*列表*/
+.listbox{ position:relative;width:100%;}
+.listbox:after{ clear:both; content:""; display:block;}
+.listbox .list{ margin:0 4%; padding:2% 0;font-family:"微软雅黑"; border-bottom:1px solid #a0a0a0;}
+.listbox .list .list_title{height:40px; line-height:40px; font-size:10px;color:#d13451;}
+.listbox .list .list_title span{float:right;display:block;width:29px;height:40px;background:url(../img/list_icon1.png) no-repeat center;background-size:auto 18px}
+.listbox .list .list_title span.close{background:url(../img/list_icon2.png) no-repeat center;background-size:auto 18px;}
+.listbox .list .list_con{ padding:1% 2%;}
+.listbox .list .none{ display:none;}
+.list_con ul{list-style:none;}
+.list_con ul li{ line-height:150%;font-size:16px; color:#666;background:url(../img/dian.png) no-repeat center left; background-position:0 8px; text-align:center;background-size:auto 5px}
+.list_con ul li p{ padding-left:3%; text-align:left;}
+.list_con ul li img{ margin:4% auto; min-height:150px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
